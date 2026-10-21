@@ -1,0 +1,21 @@
+{
+  "name": "bay-cron",
+  "version": "1.0.0",
+  "description": "Any cron-related task that runs finishline. This is run on the bay servers.",
+  "license": "ISC",
+  "author": "Santiago Ordonez Merizalde",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "node --env-file=.env dist/index.js"
+  },
+  "dependencies": {
+    "croner": "^10.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
